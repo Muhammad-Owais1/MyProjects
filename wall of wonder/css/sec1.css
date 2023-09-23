@@ -1,0 +1,41 @@
+.sec1{
+    background-color:rgb(211, 244, 255);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.sec1-center{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.sec1 h1{
+    font-family: tahoma;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.mission{
+    text-align: left;
+}
+.sec1 img{
+    width: 50%;
+    display: inline;
+    margin-top: 25px;
+}
+.sec1 p{
+    font-family: tahoma;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+}
+@media screen and (min-width:768px){
+    .sec1 img{
+        float: left;
+        shape-outside: polygon(10px 10px, 269px 2px, 155px 193px);
+    }
+}
+@media screen and (min-width:1024px){
+    .sec1 img{
+        width: 30%;
+        shape-outside: polygon(10px 10px, 212px -3px, 95px 186px);
+    }
+}

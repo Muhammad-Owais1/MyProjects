@@ -1,0 +1,38 @@
+footer{
+    background-color:rgb(255, 248, 187);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+}
+.footer-center{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+footer h4{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+footer img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+footer img:hover{
+    opacity: 0.50;
+    background-color: black;
+    border-radius: 50%;
+}
+footer p{
+    font-family: sans-serif;
+    font-size:13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+@media screen and (min-width:768px){
+    .footer-center{
+        flex-direction: row;
+        gap: 150px;
+    }
+    
+}

@@ -1,0 +1,73 @@
+.sec2{
+    padding: 50px;
+    background-color:rgb(0, 85, 118);
+}
+.sec2 h1{
+    font-family: tahoma;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+.sec2-row1,
+.sec2-row2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec2 figure{
+    width: 50vw;
+    height: 50.2vw;
+    border: 8px solid orangered;
+    margin: 10px;
+}
+.sec2 figure:hover{
+    box-shadow: 2px 2px 10px black;
+}
+.sec2 img{
+    width: 100%;
+}
+.sec2 figcaption{
+    padding-top: 1.6vw;
+    /* padding-bottom: 1vw; */
+    padding-left: 10px;
+    background-color: #ffffffc0;
+    position: relative;
+    top: -5.4vw;
+    height: 5vw;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 11px;
+}
+@media screen and (min-width:768px){
+    .sec2-row1{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .sec2-row1 figure{
+        flex-basis: 28vw;
+        height:28vw ;
+    }
+    .sec2-row2 figure{
+        height: 28vw;
+        width: 67vw;
+        overflow: hidden;
+    }
+    .sec2-row2 figcaption{
+        top: -44vw;
+    }
+}
+@media screen and (min-width:1024px){
+    .cards{
+        display: flex;
+        justify-content: center;
+    }
+    .sec2 figure{
+        height: 28vw;
+        width: 28vw;
+        overflow: hidden;
+    }
+    .sec2-row2 figcaption{
+        top: -5.4vw;
+    }
+}

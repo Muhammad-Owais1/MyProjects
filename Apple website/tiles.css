@@ -1,0 +1,148 @@
+.tiles-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: gainsboro;
+}
+.tiles-sec div{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    width: 48vw;
+    height: 55vw;
+    text-align: center;
+}
+.tile-1{
+
+    background-color: black !important ;
+}
+.tile-1 h1{
+    font-size: 4vw;
+    font-style: italic;
+    margin-top: 7vw;
+    font-family:monospace;
+    color: rgb(255, 255, 34);
+    
+}
+.tile-1 p{
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    color: white;
+    font-size: 2vw;
+}
+.tile-1 a{
+    color: rgb(173, 190, 237);
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: sans-serif;
+}
+.tile-1 .tile-img{
+    margin-top: 2vw;
+    height: fit-content;
+}
+.tile-1 img{
+    height: 26vw;
+}
+.tile-2{
+    background-color: #fff;
+}
+.tile-2 h1{
+    font-size:3.5vw;
+    margin-top: 2vw;
+    font-family: sans-serif;
+}
+.tile-2 p{
+    font-size: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-family: sans-serif;
+}
+.tile-2 a{
+    font-family: sans-serif;
+    font-size: 2vw;
+    text-decoration: none;
+}
+.tile-2 .tile-img{
+    width: fit-content;
+    margin: auto;
+    margin-top: 4vw;
+}
+.tile-2 img{
+    height: 20vw;
+}
+
+.tile-3{
+    border: 2px solid gainsboro;
+    background-color: rgb(191, 191, 238);
+    width: fit-content;
+    overflow-y: hidden;
+
+}
+.tile-3 h1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-top: 2vw;
+}
+.tile-3 .red{
+    color: red;
+    font-size: 1.5vw;
+    font-family:system-ui;
+    text-transform: uppercase;
+    font-weight: 600;
+}   
+.tile-3 .other{
+    font-size: 2vw;
+    font-family: sans-serif;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.tile-3 a{
+    color: rgb(59, 112, 255);
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: sans-serif;
+}
+.tile-3 .tile-img{
+    width: fit-content;
+    margin: auto;
+    margin-top: 8vw;
+}
+.tile-3 img{
+    height: 28vw;
+}
+.tile-4{
+    overflow: hidden;
+    background-color: black;
+}
+.tile-4 h1{
+    color: white;
+    margin-top: 2vw;
+}
+.tile-4 p{
+    color: yellow;
+    font-family: sans-serif;
+    font-size: 2vw;
+    display: inline;
+}
+.tile-4 .nor{
+    color: white;
+}
+
+.tile-4 .tile-img{
+    height: fit-content;
+    width: fit-content;
+}
+.tile-4 a{
+    color: rgb(59, 112, 255);
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: sans-serif;
+}
+.tile-4 img{
+    width: 65vw;
+
+}
+@media screen and (max-width :982px ) {
+    .tiles-sec div{
+        width: 100vw;
+    }
+}

@@ -1,0 +1,34 @@
+.s1-img{
+    overflow-y: hidden;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.s1-img img{
+    height: 80vw;
+}
+
+.s2-img{
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+    height: 35vw;
+}
+.s2-img img{
+    padding-top: 30px;
+    width: 65vw;
+}
+
+.bgimg{
+    background-color: brown;
+    overflow: hidden;
+    height: 56vw;
+    /* display: flex; */
+}
+.bgimg img{
+    width: 100vw;
+}
+

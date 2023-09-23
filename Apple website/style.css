@@ -1,0 +1,109 @@
+.grey{
+    color: rgb(34, 34, 34);
+}
+.white{
+    color: white;
+}
+.bgblack{
+    background-color: black;
+}
+.heading{
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    width: fit-content;
+}
+h1{
+    font-family:sans-serif;
+    font-size: 5.5vw;
+}
+.disc{
+    font-family: sans-serif;
+    font-size: 3vw;
+    margin-bottom: 10px;
+}
+.heading a{
+    text-decoration: none;
+    color:rgb(0, 102, 255);
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 3vw;
+}
+.third-sec-heading{
+    position: relative;
+    top: -40vw;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.yellow{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 11vw;
+    font-family: monospace;
+    font-style: italic;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff700, 0 0 40px #fff700, 0 0 50px #fff700, 0 0 60px #fff700, 0 0 70px #fff700;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #f7fb00, 0 0 40px #f7fb00, 0 0 50px #f7fb00, 0 0 60px #f7fb00, 0 0 70px #f7fb00, 0 0 80px #f7fb00;
+    }
+}
+.other-heading{
+    color: rgb(227, 221, 221);
+    font-size: 4vw;
+    font-family: sans-serif;
+}
+footer{
+    background-color: rgb(233, 227, 255);
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+footer .center{
+    width: 80vw;
+    margin: auto;
+}
+footer .info{
+    color: rgb(90, 89, 89);
+    font-size: 12px;
+    /* margin-top: 1.5vw; */
+    margin-bottom: 25px;
+}
+.div-container{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 6vw;
+}
+
+.fbold{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.fheading-option{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: grey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.fheading-option:hover{
+    color: white;
+}
+.bar{
+    text-align: center;
+    background-color: black;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+}

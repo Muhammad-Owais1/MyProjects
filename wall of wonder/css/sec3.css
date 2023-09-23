@@ -1,0 +1,51 @@
+.sec3{
+    padding: 50px;
+    background-color: rgb(234, 231, 203);
+}
+.sec3 h1{
+    font-family: tahoma;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.sec3 figure{
+    border: 8px solid yellowgreen;
+    margin: auto;
+    /* width: fit-content; */
+    width: 50vw;
+    height: 50vw;
+    position: relative;
+    overflow: hidden;
+}
+.sec3 figure:hover{
+    box-shadow: 2px 2px 10px black;
+}
+.sec3 img{
+    height:100%;
+    /* width: 100%; */
+}
+.sec3 figcaption{
+    padding-top: 1.6vw;
+    /* padding-bottom: 1vw; */
+    padding-left: 10px;
+    background-color: #ffffffc0;
+    position: relative;
+    top: -5.4vw;
+    height: 5vw;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 11px;
+}
+@media screen and (min-width:768px){
+    .sec3 figure{
+        height: 28vw;
+    }
+    .sec3 img{
+        width: 100%;
+    }
+}
+@media screen and (min-width:1024px){
+    .sec3 figure{
+        height: 28vw;
+    }
+}
