@@ -1,0 +1,56 @@
+footer {
+    background-color: #fff;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer img {
+    cursor: pointer;
+    height: 100px;
+}
+
+footer img:hover {
+    box-shadow: 0 0 10px black;
+}
+
+footer h3 {
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+}
+
+
+footer p {
+
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-info span {
+    display: block;
+}
+@media screen and (max-width:991px ) {
+    footer {
+        position: relative;
+        top: 120px;
+    }
+    
+    .footer-img {
+        padding-top: 20px;
+    }
+}

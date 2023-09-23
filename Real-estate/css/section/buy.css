@@ -1,0 +1,70 @@
+.buy {
+    background-color:rgb(189, 189, 189);
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.card-container div {
+    width: 300px;
+
+    margin-top: 20px;
+    box-shadow: 0 0 10px  rgb(2, 39, 70);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #fff;
+
+    padding: 10px;
+    padding-bottom: 60px;
+
+}
+
+.card-container div:hover {
+    width: 400px;
+    transition: 1s;
+}
+
+.buy img {
+    height: 100px;
+}
+
+.buy-btn {
+    border: none;
+    box-shadow: 0 0 10px black;
+    border-radius: 3px ;
+    background-color: limegreen;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 375px;
+
+}
+
+.buy-btn:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: 1s;
+}
+
+@media screen and (max-width:991px ) {
+    .buy {
+        position: relative;
+        top: 200px;
+    }
+
+    .card-container div {
+        height: 435.6px;
+    }
+    span {
+        text-align: center;
+    }
+}

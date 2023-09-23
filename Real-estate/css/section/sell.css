@@ -1,0 +1,44 @@
+.sell {
+    background-color: rgb(2, 23, 56);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding-bottom: 25px;
+
+    position: relative;
+    z-index: 5;
+}
+
+.sell h1 {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+
+    /* padding-top: 80px; */
+}
+
+.sell p {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.sell h2 {
+    color: white;
+}
+
+.sell input {
+    border: none;
+    height: 30px;
+}
+
+@media screen and (max-width:991px ) {
+    .sell {
+        /* top: 200px; */
+    }
+    input {
+        padding-right: 0;
+        width: 110px;
+    }
+}
